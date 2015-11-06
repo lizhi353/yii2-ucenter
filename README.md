@@ -1,4 +1,3 @@
-# yii2Ucenter
 ##yii2Ucenter单点登录
 
 ###1. 首先在ucenter添加你的应用。
