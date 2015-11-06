@@ -2,9 +2,9 @@
 ##yii2Ucenter单点登录
 
 ###1. 首先在ucenter添加你的应用。
-    ####(1)应用的主URL:$weburl/ucenter
-    ####(2)应用接口文件名称:index
-    ####(3)其它没什么要说的，记住应用建好之后复制配置信息
+    (1)应用的主URL:$weburl/ucenter
+    (2)应用接口文件名称:index
+    (3)其它没什么要说的，记住应用建好之后复制配置信息
 ###2. $webroot/frontend/config目录下添加ucenter.php文件。写入ucenter配置信息。如：
 ```php
 define('UC_CONNECT', 'mysql');
@@ -28,7 +28,7 @@ define('UC_CLIENT_RELEASE', '20110501');
 
 ###3. 将代码复制到将代码复制到$webroot/frontend/modules/ucenter
 
-####(1)在$webroot/frontend/config加入ucenter配置文件如ucenter.php
+(1)在$webroot/frontend/config加入ucenter配置文件如ucenter.php
 
 4. 在配置文件中加入module信息。
 ```php
