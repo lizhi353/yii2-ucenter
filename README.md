@@ -1,4 +1,6 @@
-##yii2Ucenter单点登录
+##Yii2单点登录扩展yii2Ucenter
+
+#### 说明：这个yii2单点登录是用模块modules的方式实现的。简单易懂。
 
 ###1. 首先在ucenter添加你的应用。
     (1)应用的主URL:$weburl/ucenter
