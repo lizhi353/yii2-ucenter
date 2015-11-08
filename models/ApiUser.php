@@ -17,14 +17,14 @@ class ApiUser extends Model{
         Yii::$app->user->logout();
     }
 
-    public function synlogin($get) {
+    public function synlogin($get) {//同步登录
         $uid = isset($get['uid']) ? $get['uid'] : '';
         header('P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"');
         $model = new \common\models\LoginForm();
         $model->loginByUid($uid);
     }
 
-    public function test() {
+    public function test() {//应用通信
         return self::API_RETURN_SUCCEED;
     }
 }
