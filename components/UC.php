@@ -49,7 +49,7 @@ class UC extends Object{
         return $post;
     }
 
-    private function uc_api_post($module, $action, $arg = array()) {
+    private function uc_api_post($module, $action, $arg = array()) {//发送post请求
         $s = $sep = '';
         foreach($arg as $k => $v) {
             $k = urlencode($k);
