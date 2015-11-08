@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lizhi353\\yii2Ucenter\\": ""
+            "lizhi353\\ucenter\\": ""
         }
     }
 }
