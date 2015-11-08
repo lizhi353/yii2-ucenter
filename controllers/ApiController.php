@@ -9,7 +9,7 @@ use yii\web\Controller;
 class ApiController extends Controller
 {
     public $get;
-    public function init() {
+    public function init() {//将接收过来的参数进行解密
         $this->get = $post = array();
         $code = Yii::$app->request->get('code');
         $AuthCode = new UC();
@@ -23,7 +23,7 @@ class ApiController extends Controller
         header('P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"');
     }
 
-    public function actionSynlogin() {
+    public function actionSynlogin() {//同步登录
         $uid = intval($this->get['uid']);
         $model = new \common\models\LoginForm();
         $model->loginByUid($uid);
