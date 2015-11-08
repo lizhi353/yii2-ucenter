@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","yii2Ucenter","yii2-ucenter","ucenter"],
     "license": "MIT",
+     "version": "1.0.1"
     "authors": [
         {
             "name": "lizhi353",
