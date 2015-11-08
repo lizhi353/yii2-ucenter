@@ -12,10 +12,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*"
+        "ext-ucenter": "*"
     },
     "autoload": {
-        "psr-0": {
-            "lizhi353\\ucenter\\": ""
+        "psr-4": {
+            "lizhi353\\yii2\\ucenter\\": ""
         }
     }
 }
